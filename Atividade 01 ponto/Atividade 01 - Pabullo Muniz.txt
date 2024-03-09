@@ -1,0 +1,98 @@
+A) Pesquise e responda:
+
+1) O que é algoritmo? 
+R:conjunto das regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema em um número finito de etapas. ( dicionário Google)
+
+2) O que é um programa de computador? 
+R:um software desenvolvido e programado para executar determinada atividade
+
+3) O que é uma variável? 
+R:Variável é o nome utilizado para definir um ou mais valores que são manipulados pelos programas durante a sua operação. (https://gaea.com.br/variaveis-programacao)
+
+4) O que é o Portugol Studio? 
+R:É um software para utilizar a pseudo linguagem de programação portugol
+
+5) O que faz o comando escreva do Portugol?
+R: Apresenta escrito no terminal o que está dentro dos seus parentêses 
+
+6) O que faz o comando leia do Portugol?
+R: Atribui o valor digitado pelo usuário a variavel selecionada
+
+7) Defina o que é tipo de variável: 
+R:O tipo de variavel define o tipo de informação que aquela variavel vai receber, por exemplo, Números reais, inteiros, caracteres, operações lógicas, constantes, etc.
+
+8) Explique o que são os tipos de variáveis do Portugol:
+   a. cadeia 
+R:recebe uma sequencia de caracteres
+   b. inteiro 
+R:recebe números do conjunto dos inteiros
+   c. real 
+R:recebe números do conjunto dos reais
+   d. logico 
+R:Retorna verdadeiro ou falso 
+   e. caracter 
+R:recebe 1 caracter
+9) Dê exemplo:
+   a. de entrada de um algoritmo  
+		escreva("Digite o peso do paciente em kg: ")
+		leia(peso)
+		escreva("Digite a altura do paciente em metros: ")
+		leia(altura)
+   b. de processamento de um algoritmo
+
+imc= peso / m.potencia(altura, 2)
+
+   c. de saída de um algoritmo
+			se(imc <18.5){
+			escreva("O IMC de "+ m.arredondar(imc, 2)+" corresponde a peso abaixo do ideal!")}
+				
+B) ALGORITMOS:
+
+1) Uma clínica tem necessidade de informar o IMC (Índice de Massa Corporal) dos seus pacientes.
+Sabendo que o IMC se calcula da seguinte forma: divide-se o peso (em kg) pelo quadrado da altura (em metros), crie um programa que faça o cálculo do IMC de um dado paciente.
+
+Informe o IMC do paciente.
+Caso o IMC seja menor que 18,5, informe que a classificação é Baixo peso.
+Caso o IMC seja maior que 18,5 e menor que 24,9, informe que a classificação é Peso saudável.
+Caso o IMC seja maior ou igual a 25 e menor que 29,9, informe que a classificação é Sobrepeso.
+Caso o IMC seja maior ou igual a 30, informe que a classificação é Obesidade.
+
+2) Uma contabilidade precisa calcular o Imposto de Renda dos funcionários de uma empresa.
+Dada a tabela do Imposto de Renda abaixo, solicite o salário de um funcionário e calcule o valor do imposto de renda a pagar, tendo efetuado a dedução e informe para o contador o valor da base de cálculo, a alíquota aplicada, o valor deduzido e o imposto a pagar.
+
+Obs.: A parcela a deduzir deve ser multiplicada pelo número de dependentes.
+
+IR na fonte
+--------------------------------------------------------------------------------------
+Base de cálculo¹ (R$)		Alíquotas em %		Parcela a deduzir do IR (R$)
+--------------------------------------------------------------------------------------
+Até 2.112,00			0,00			0,00
+De 2.112,01 até 2.826,65	7,50			158,40
+De 2.826,66 até 3.751,05	15,00			370,40
+De 3.751,06 até 4.664,68	22,50			651,73
+Acima de 4.664,68		27,50			884,96
+
+Exemplo:
+
+Entrada:
+
+Salário: R$ 3.500,00
+Número de dependentes: 1
+
+Processamento:
+
+(3.500 * 0,15) - (370,40 *1) = 154,60
+
+Saída:
+
+Base de Cálculo: R$ 3.500,00
+Alíquota IR: 15,00%
+Parcela a deduzir: R$ 370,40
+Imposto a pagar: R$ 154,60
+
+Obs.: Caso o valor do imposto seja negativo, apresentar valor a pagar igual a zero.
+Obs2.: O exercício acima é apenas para treinamento e não representa o cálculo do imposto oficial.
+
+
+3) Crie um algoritmo que solicite o dia, o mês e o ano e informe se a data é válida ou inválida.
+Considere o mês de fevereiro com 28 dias.
